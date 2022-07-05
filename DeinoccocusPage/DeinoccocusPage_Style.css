@@ -1,0 +1,43 @@
+body {
+	background-image: url("webpage background.jpg");
+}
+
+h1 {
+	color: white
+}
+
+h2 {
+    color: white
+}
+
+article {
+	color: white
+}
+
+.nav {
+	background: #000;
+	height: 80px;
+	width: 100%;
+	color: white
+}
+
+.nav ul {
+	height: 80px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.nav ul li {
+  color: white;
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  list-style: none;
+  padding: 0 10px;
+  transition: background 1.0s;
+}
+
+.nav ul li:hover {
+	background-color: #078c74
+}
