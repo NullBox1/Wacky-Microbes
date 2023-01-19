@@ -9,7 +9,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("./webpage background.jpg");
+	background-image: url("../FrontPage/webpage background.jpg");
 	background-size: 100% 100%;
 	text-shadow: 0 0 140px red;
 	margin-top: 0px;
@@ -29,12 +29,6 @@ body {
 	font-size: 20px;
 	margin-left: 250px;
 	margin-right: 250px;
-}
-
-.gridimage {
- border: solid 4px gray;
- height: 200px;
- width: 200px;   
 }
 
 .nav {
@@ -99,26 +93,35 @@ body {
 	padding: 16px 12px;
 }
 
+.bacteria-dropdown-content li{
+	font-size: 20px;
+	text-align: left;
+	margin-left: -20px;	
+	padding: 16px 12px;
+}
+
 .selectiongrid {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	padding: 10px;
-	margin-left: 200px;
-	margin-right: 200px;
-	margin-top: 200px;
 	border:1px solid #078c74;
 }
 
-.grid-item {
+.griditem {
 	display: block;
 	border: 1px solid rgba(0, 0, 0, 0.8);
-	padding: 20px;
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
-	height: 100px;
-	width:100px;
+	width: 300px;
   }
 
-.grid-item:hover {
+
+.griditem:hover {
 	background-color: #078c74;
 }
+
+.gridimage {
+	border: solid 4px gray;
+	height: 200px;
+	width: 200px;   
+   }
